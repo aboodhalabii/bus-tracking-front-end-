@@ -57,7 +57,7 @@ function Login() {
 
   return (
     <FormContainer>
-      <h2>Student Login</h2>
+      <h2>Bus Driver Login</h2>
 
       <form onSubmit={handleSubmit(onSubmit)}>
         <Input
