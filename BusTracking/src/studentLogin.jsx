@@ -57,7 +57,7 @@ function Login() {
 
   return (
     <FormContainer>
-      <h2>Login Form</h2>
+      <h2>Login</h2>
 
       <form onSubmit={handleSubmit(onSubmit)}>
         <Input
@@ -74,7 +74,7 @@ function Login() {
         />
         {errors.password && <span style={{ color: "red" }}>{errors.password.message}</span>}
 
-        <SubmitButton type="submit" value="Login" />
+        <SubmitButton type="Login" value="Login" />
       </form>
     </FormContainer>
   );
